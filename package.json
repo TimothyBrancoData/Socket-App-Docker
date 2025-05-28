@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker-build": "docker build -t socket-app .", 
-    "docker-run": "docker run -d -p 8080:3000 socket-app"
+    "docker-build": "docker build -t tazzypan19/socket-app .",
+    "docker-run": "docker run -d -p 5600:3000 tazzypan19/socket-app"
   },
   "author": "",
   "license": "ISC",
